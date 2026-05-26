@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STI College Calamba BSIT program website project with facilities, faculty, and contact information.">
+  <title>STI College Calamba | BSIT Program</title>
+  <link rel="stylesheet" href="TpWeb.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="STI College Calamba home">
+        <img src="STI_Logo.jpg" alt="STI College logo">
+        <span>STI College Calamba</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#why-bsit">Why BSIT</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="clip" aria-label="BSIT Program introduction">
+      <video class="clip-video" autoplay muted loop playsinline poster="STI BG.jpg" aria-label="STI College Calamba campus background video">
+        <source src="STIRandomClips.mp4" type="video/mp4">
+      </video>
+      <div class="clip-overlay"></div>
+
+      <div class="clip-content reveal-on-load">
+        <p class="eyebrow">Bachelor of Science in Information Technology</p>
+        <h1>Build digital solutions for the future.</h1>
+        <p class="clip-copy">Develop practical skills in programming, systems, web technology, and problem-solving through hands-on learning at STI College Calamba.</p>
+        <div class="clip-actions">
+          <a href="#why-bsit" class="btn btn-primary">Explore BSIT</a>
+          <a href="#facilities" class="btn btn-outline">View Facilities</a>
+        </div>
+      </div>
+    </section>
+
+     <!-- EME NA WHY BSIT -->
+    <section id="why-bsit" class="section why-bsit">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Why choose BSIT?</p>
+        <h2>Learn by creating, testing, and improving.</h2>
+        <p>BSIT prepares students for technology-driven careers by combining fundamentals, practical projects, and real-world problem solving.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="icon-badge">01</div>
+          <h3>Cutting-edge facilities</h3>
+          <p>Use computer laboratories and learning spaces designed for hands-on activities, coding practice, and collaboration.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="icon-badge">02</div>
+          <h3>Real-world skills</h3>
+          <p>Strengthen your foundation in web systems, programming logic, software development, and IT problem-solving.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="icon-badge">03</div>
+          <h3>Career-ready mindset</h3>
+          <p>Build confidence for opportunities in software, support, networking, systems, database, and other ICT fields.</p>
+        </article>
+      </div>
+    </section>
+
+     <!-- FACILITIES -->
+    <section id="facilities" class="section facilities">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Campus spaces</p>
+        <h2>Facilities that support student life.</h2>
+      </div>
+
+      <div class="facility-panel reveal">
+        <div class="facility-media" aria-live="polite">
+          <img src="Comlab.jpg" alt="Computer Laboratory" class="facility-photo active">
+          <img src="Library.jpg" alt="Library" class="facility-photo">
+          <img src="Mezza.jpg" alt="Mezzanine" class="facility-photo">
+          <img src="Court.jpg" alt="Court" class="facility-photo">
+          <img src="Canteen(2).jpg" alt="Canteen" class="facility-photo">
+        </div>
+
+        <div class="facility-info">
+          <p class="eyebrow" id="facility-kicker">Featured facility</p>
+          <h3 id="facility-title">Computer Laboratory</h3>
+          <p id="facility-desc">A dedicated learning environment where students can practice programming, web development, and other computer-based activities.</p>
+
+          <div class="facility-controls">
+            <button class="control-btn" id="prevFacility" aria-label="Previous facility">&#10094;</button>
+            <button class="control-btn" id="nextFacility" aria-label="Next facility">&#10095;</button>
+          </div>
+
+          <div class="facility-thumbs" id="facilityThumbs" aria-label="Facility selector"></div>
+        </div>
+      </div>
+    </section>
+
+     <!-- FACULTY SECTION -->
+<section id="faculty" class="section faculty">
+  <div class="section-heading reveal">
+    <p class="eyebrow">IT Faculty</p>
+    <h2>Guided by instructors who help students grow.</h2>
+  </div>
+
+  <div class="faculty-slider">
+    <button class="slider-btn prev">&#10094;</button>
+    <div class="slider-track">
+      <article class="faculty-card">
+        <img src="Sir_JC.jpg" alt="Sir JC">
+        <h3>Jose Carlos Gonzalez</h3>
+        <p>Data Communications</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Sir_Philip.jpg" alt="Sir Jon Philip Daludado">
+        <h3>Jon Philip Daludado</h3>
+        <p>Web Systems and Technology</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Sir_Euencis.jpg" alt="Sir Euencis">
+        <h3>Euencis Palmones</h3>
+        <p>Advanced Database System</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Sir_Coral.jpg" alt="Sir JM">
+        <h3>Joie Mar Coral</h3>
+        <p>Mobile Systems and Technologies</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Sir_Dexter.jpg" alt="Sir Dexter">
+        <h3>Dexter Belarmino</h3>
+        <p>Information Assurance & Security</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Alliah.jpg" alt="Mam Danyca">
+        <h3>Daynca Alliah Villanueva</h3>
+        <p>Systems Administration and Maintenance</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Placeholder.jpg" alt="Mam Joyce">
+        <h3>Joyce Ann Brofar</h3>
+        <p>Programming Languages</p>
+      </article>
+      <article class="faculty-card">
+        <img src="Placeholder.jpg" alt="Mam Missy">
+        <h3>Missy Ann Yamaro</h3>
+        <p>Network Technology</p>
+      </article>
+       <article class="faculty-card">
+        <img src="Placeholder.jpg" alt="Sir Doms">
+        <h3>Domenand Yedra</h3>
+        <p>Professional Issues in Information Systems and Technology</p>
+      </article>
+    </div>
+    <button class="slider-btn next">&#10095;</button>
+  </div>
+</section>
+
+     <!-- CONTACT LANG TO SA BABA -->
+    <section id="contact" class="section contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact & Socials</p>
+        <h2>Reach STI College Calamba in one place.</h2>
+        <p>Campus details and Facebook links are grouped together for easier browsing.</p>
+      </div>
+
+      <div class="contact-card merged-contact reveal">
+        <div class="contact-details">
+          <h3>STI College Calamba</h3>
+          <p>STI Academic Center, Barangay Uno, National Highway, Calamba City, 4027 Laguna</p>
+          <p><strong>Telephone:</strong> (049) 502-8225</p>
+        </div>
+
+        <div class="social-links" aria-label="Official Facebook links">
+          <a class="social-card" href="https://www.facebook.com/calamba.sti.edu" target="_blank" rel="noopener noreferrer">
+            <span class="fb-icon">f</span>
+            <span><strong>STI College Calamba</strong><small>Campus updates and announcements</small></span>
+            <em>Visit</em>
+          </a>
+          <a class="social-card" href="https://www.facebook.com/STICALAMBASSC" target="_blank" rel="noopener noreferrer">
+            <span class="fb-icon">f</span>
+            <span><strong>STI Calamba SSC</strong><small>Student council activities and posts</small></span>
+            <em>Visit</em>
+          </a>
+          <a class="social-card" href="https://www.facebook.com/CITUS.STI" target="_blank" rel="noopener noreferrer">
+            <span class="fb-icon">f</span>
+            <span><strong>CITUS STI</strong><small>IT community and technology updates</small></span>
+            <em>Visit</em>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+  <script src="TpWeb.js"></script>
+</body>
+</html>
